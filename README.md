@@ -1,2 +1,1 @@
-# VisualNove_v2
- 
+# Skeleton of a Visual Novel running on Unity
