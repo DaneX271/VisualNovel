@@ -11,6 +11,8 @@ public class ChoiceManager : MonoBehaviour
     public Image CharacterImage;
     public TextMeshProUGUI TitleText;
     public TextMeshProUGUI DialogText;
+    public TextMeshProUGUI ChoiceText1;
+    public TextMeshProUGUI ChoiceText2;
     public Button ButtonNext;
     public Button NextChoice1;
     public Button NextChoice2;
@@ -40,6 +42,8 @@ public class ChoiceManager : MonoBehaviour
             NextChoice1.gameObject.SetActive(true);
             NextChoice2.gameObject.SetActive(true);
             ButtonNext.gameObject.SetActive(false);
+            ChoiceText1.text = choice.ChoiceText1;
+            ChoiceText2.text = choice.ChoiceText2;
         }
 
         BackgroundImage.sprite = choice.BackgroundSprite;

@@ -7,6 +7,8 @@ public class Choice : MonoBehaviour
 {
     public string TitleText;
     public string DialogText;
+    public string ChoiceText1;
+    public string ChoiceText2;
     public Sprite CharacterSprite;
     public Sprite BackgroundSprite;
     public Choice NextChoice1;
